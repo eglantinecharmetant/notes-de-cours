@@ -1,0 +1,18 @@
+>>> age = int(input("Quel age a votre enfant ?"))
+Quel age a votre enfant ? 9
+>>> if (age<6) :
+...     print("Il est trop petit")
+... elif (age==6) or (age==7) :
+...     print("Poussin")
+... elif age ==8 or age==9 :
+...     print("Pupille")
+... elif age==10 or age==11 :
+...     print("Minime")
+... elif (age>11) and (age<19):
+...     print("Cadet")
+... elif age > 18 :
+...     print("Hors categorie")
+... 
+Pupille
+>>> 
+
